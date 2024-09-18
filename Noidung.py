@@ -16,6 +16,5 @@ if response.status_code == 200:
             file.write(article_content)
     else:
         print("No <article> tag found.")
-    
 else:
     print(f"Failed to retrieve the page. Status code: {response.status_code}")
